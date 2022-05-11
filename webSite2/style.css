@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    padding: 10px;
+    padding-top: 3px;
+    background-color: #fff;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.container {
+    width: 992px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.nav_logo {
+    align-self: center;
+    display: inline-block;
+}
+
+.nav_menu {
+    display: flex;
+    margin-left: 50px;
+    color:#707070;
+    list-style: none;
+    align-items: center;
+}
+
+.nav_link {
+    color:inherit;
+    text-decoration-line: none;
+}
