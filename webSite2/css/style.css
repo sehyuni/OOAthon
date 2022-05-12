@@ -106,13 +106,7 @@ input::placeholder {
     text-decoration-line: none;
 }
 
-.page {
-    max-width: 1920px;
-}
 
-.project {
-    padding: 32px;
-}
 
 h3 {
     font-size: 25px;
@@ -121,6 +115,8 @@ h3 {
     border-bottom: 1px solid #dbdbdb;
     padding-bottom: 10px;
 }
+
+
 
 footer {
     background-color: #f4f4f4;
