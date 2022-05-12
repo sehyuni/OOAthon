@@ -28,6 +28,10 @@
     padding: 0;
 }
 
+.mt-60 {
+    margin-top:60px;
+}
+
 .mt-44 {
     margin-top:44px;
 }
@@ -75,6 +79,12 @@
 .top_img {
     max-width: 41.7%;
     flex: 0 0 41.7%;
+    position: relative;
+}
+
+.test_img {
+    max-width: 100%;
+    flex: 0 0 100%;
     position: relative;
 }
 
