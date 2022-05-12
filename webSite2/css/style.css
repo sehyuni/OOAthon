@@ -180,6 +180,20 @@ h3 {
     border-bottom: 1px solid #dbdbdb;
 }
 
+.containerrr {
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr 2fr 4fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.1fr;
+    row-gap: 30px;
+    column-gap: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    align-items: center;
+    text-size-adjust: 9px;
+}
+
+
 footer {
     background-color: #f4f4f4;
     border-top: 1px solid #dbdbdb;
