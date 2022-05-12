@@ -7,3 +7,11 @@ body * {
     font-family: 'SCDream4';
     font-size: 16px;
 }
+
+.large_size_font {
+    font-size: 24px;
+}
+
+.bold_font {
+    font-family: 'SCDream5';
+}
