@@ -18,6 +18,10 @@ body * {
     font-size: 16px;
 }
 
+.mlarge_size_font {
+    font-size:20px;
+}
+
 .large_size_font {
     font-size: 24px;
 }
