@@ -98,7 +98,7 @@ input::placeholder {
     margin-bottom: auto;
     margin-top: 8px;
     border:0;
-    border-left: 3px solid #dbdbdb;
+    border-left: 2.5px solid #dbdbdb;
 }
 
 .nav_link {
