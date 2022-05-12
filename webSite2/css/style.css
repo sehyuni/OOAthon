@@ -132,7 +132,6 @@ input::placeholder {
 }
 
 .login_title {
-    font-size: 28px;
     text-align: center;
     color: black;
 }
@@ -146,16 +145,15 @@ input::placeholder {
 }
 
 .submit-btn {
-    font-size: 14px;
     padding: 10px;
     border: none;
     background-color: #dbdbdb;
     margin-top: 30px;
     margin-bottom: 30px;
     color: #707070;
-  }
+}
 
-  .links {
+.links {
     text-align: center;
 }
  
