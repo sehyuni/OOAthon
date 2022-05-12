@@ -28,8 +28,8 @@
     padding: 0;
 }
 
-.mt-48 {
-    margin-top:48px;
+.mt-36 {
+    margin-top:36px;
 }
 
 .mr-8 {
@@ -54,6 +54,10 @@
 
 .mb-24 {
     margin-bottom: 24px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
 }
 
 .line-height {
