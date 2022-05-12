@@ -11,170 +11,171 @@
 </head>
 
 <body>
+  <div id='wrapper'>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container">
+        <div class="nav_logo">
+            <a href="index.html">    
+            <img class="logo-img" src="images/Logo_text.png" alt="Logo" width="180px" height="40px">
+            </a>
+        </div>
+        
+        <div class="nav_search">
+                <div class="search_position">
+                    <form class="search_bar" style="width: 250px;">
+                        <input autocomplete="off" type="search" placeholder="검색어를 입력하세요" name="query">
+                        <button class="search_button" style="line-height: 26px; margin-top: 1px; margin-right: 1px; margin-bottom: 1px;">
+                            <img src="images/search_gray_icon.svg" style="height: 20px; width: 20px;">
+                        </button>
+                    </form>
+                </div>
+        </div>
+        
+        <div class="nav_menu">
+            <a class="nav_link" href="column_page.html"><span>칼럼</span></a>
+        </div>
+        <div class="nav_menu">
+            <a class="nav_link" href="test_page.html"><span>테스트</span></a>
+        </div>
+        <div class="nav_menu">
+            <a class="nav_link" href=""><span>챌린지</span></a>
+        </div>
+        <div class="nav_menu">
+            <a class="nav_link" href=""><span>고민</span></a>
+        </div>
 
-<!-- Navbar -->
-<nav class="navbar">
-  <div class="container">
-      <div class="nav_logo">
-          <a href="index.html">    
-          <img class="logo-img" src="images/Logo_text.png" alt="Logo" width="180px" height="40px">
-          </a>
-      </div>
-      
-      <div class="nav_search">
-              <div class="search_position">
-                  <form class="search_bar" style="width: 250px;">
-                      <input autocomplete="off" type="search" placeholder="검색어를 입력하세요" name="query">
-                      <button class="search_button" style="line-height: 26px; margin-top: 1px; margin-right: 1px; margin-bottom: 1px;">
-                          <img src="images/search_gray_icon.svg" style="height: 20px; width: 20px;">
-                      </button>
-                  </form>
-              </div>
-      </div>
-      
-      <div class="nav_menu">
-          <a class="nav_link" href="column_page.html"><span>칼럼</span></a>
-      </div>
-      <div class="nav_menu">
-          <a class="nav_link" href="test_page.html"><span>테스트</span></a>
-      </div>
-      <div class="nav_menu">
-          <a class="nav_link" href=""><span>챌린지</span></a>
-      </div>
-      <div class="nav_menu">
-          <a class="nav_link" href=""><span>고민</span></a>
-      </div>
+        <div class="nav_portfolio">
+          <a class="nav_link" href="portfolio_page.html"><span>포트폴리오</span></a>
+        </div>
 
-      <div class="nav_portfolio">
-        <a class="nav_link" href="portfolio_page.html"><span>포트폴리오</span></a>
-      </div>
-
-      <div class="navbar_login">
-        <button class="login_button" type="button" onclick="location.href='login_page.html'">
-          <img src="images/person_icon.svg" style="height: 25px; width: 25px;">
-        </button>
-      </div>
-      
-  </div>
-</nav>
-
-<!-- Header -->
-<header>
-</header>
-
-<!-- Page content -->
-<div class="fixed_container">
-  <h3 class="bold_font mlarge_size_font">NEW! 새로 발행된 콘텐츠</h3>
-
-  <!-- Project Section -->
-  <div class="containerr">
-    
-    <button class="col_button" type="button" onclick="location.href='column_page.html'">
-      <img src="images/Col_1.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
-      <p>대학생 휴학 중 경험에 대한 사례연구</p>
-    </button>
-
-    <div class="item">
-      <img src="images/top10.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
-      <p>대학생 휴학 이유 TOP10</p>
+        <div class="navbar_login">
+          <button class="login_button" type="button" onclick="location.href='login_page.html'">
+            <img src="images/person_icon.svg" style="height: 25px; width: 25px;">
+          </button>
+        </div>
+        
     </div>
+  </nav>
 
-    <div class="item">
-      <img src="images/휴학생의 솔직인터뷰.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
-      <p>휴학생의 솔직 인터뷰</p>
-    </div>
+  <!-- Header -->
+  <header>
+  </header>
 
-    <div class="item">
-      <img src="images/휴학생과노동시장의형태.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
-      <p>휴학생과 노동시장의 형태</p>
-    </div>
+  <!-- Page content -->
+  <div class="fixed_container">
+    <h3 class="bold_font mlarge_size_font">NEW! 새로 발행된 콘텐츠</h3>
 
-    <div class="item">
-      <img src="images/휴학생과노동시장의형태.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
-      <p>휴학생과 노동시장의 형태</p>
-    </div>
+    <!-- Project Section -->
+    <div class="containerr">
 
-    <div class="item">
-      <img src="images/휴학생과노동시장의형태.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
-      <p>휴학생과 노동시장의 형태</p>
-    </div>
-  </div>
-  
-
-  <!-- About Section -->
-  <div class="w3-container w3-padding-32" id="about">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-      laboris nisi ut aliquip ex ea commodo consequat.
-    </p>
-  </div>
-
-  <div class="w3-row-padding w3-grayscale">
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team2.jpg" alt="John" style="width:100%">
-      <h3>John Doe</h3>
-      <p class="w3-opacity">CEO & Founder</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
-      <h3>Jane Doe</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
-      <h3>Mike Ross</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-    <div class="w3-col l3 m6 w3-margin-bottom">
-      <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
-      <h3>Dan Star</h3>
-      <p class="w3-opacity">Architect</p>
-      <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
-      <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
-    </div>
-  </div>
-
-  <!-- Contact Section -->
-  <div class="w3-container w3-padding-32" id="contact">
-    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
-    <p>Lets get in touch and talk about your next project.</p>
-    <form action="/action_page.php" target="_blank">
-      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
-      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
-      <button class="w3-button w3-black w3-section" type="submit">
-        <i class="fa fa-paper-plane"></i> SEND MESSAGE
+      <button class="col_button" type="button" onclick="location.href='column_page.html'">
+        <img src="images/Col_1.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
+        <p>대학생 휴학 중 경험에 대한 사례연구</p>
       </button>
-    </form>
+
+      <div class="item">
+        <img src="images/top10.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
+        <p>대학생 휴학 이유 TOP10</p>
+      </div>
+
+      <div class="item">
+        <img src="images/휴학생의 솔직인터뷰.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
+        <p>휴학생의 솔직 인터뷰</p>
+      </div>
+
+      <div class="item">
+        <img src="images/휴학생과노동시장의형태.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
+        <p>휴학생과 노동시장의 형태</p>
+      </div>
+
+      <div class="item">
+        <img src="images/휴학생과노동시장의형태.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
+        <p>휴학생과 노동시장의 형태</p>
+      </div>
+
+      <div class="item">
+        <img src="images/휴학생과노동시장의형태.png" alt="Coulmn" style="width:100%; border-radius: 0.25rem;">
+        <p>휴학생과 노동시장의 형태</p>
+      </div>
+    </div>
+    
+
+    <!-- About Section -->
+    <div class="w3-container w3-padding-32" id="about">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+    </div>
+
+    <div class="w3-row-padding w3-grayscale">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/w3images/team2.jpg" alt="John" style="width:100%">
+        <h3>John Doe</h3>
+        <p class="w3-opacity">CEO & Founder</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/w3images/team1.jpg" alt="Jane" style="width:100%">
+        <h3>Jane Doe</h3>
+        <p class="w3-opacity">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/w3images/team3.jpg" alt="Mike" style="width:100%">
+        <h3>Mike Ross</h3>
+        <p class="w3-opacity">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <img src="/w3images/team4.jpg" alt="Dan" style="width:100%">
+        <h3>Dan Star</h3>
+        <p class="w3-opacity">Architect</p>
+        <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-32" id="contact">
+      <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+      <p>Lets get in touch and talk about your next project.</p>
+      <form action="/action_page.php" target="_blank">
+        <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+        <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+        <button class="w3-button w3-black w3-section" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </form>
+    </div>
+    
+  <!-- Image of location/map -->
+  <div class="w3-container">
+    <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
   </div>
-  
-<!-- Image of location/map -->
-<div class="w3-container">
-  <img src="/w3images/map.jpg" class="w3-image" style="width:100%">
-</div>
 
-<!-- End page content -->
-</div>
-
-
-<!-- Footer -->
-<footer class="footer">
-  <div class="first">
-    <p>저자 지원 | 고객센터 | 칼럼 구독하기</p>
+  <!-- End page content -->
   </div>
-  <div class="second">
-    <p>(주) 휴면상태 | 대표이사: 일팀 | 사업자 등록번호: 101-10-10101 | 경기도 안산시 상록구 한양대학로 55 멋사 빌딩 | 통신판매업신고: 2022-경기안산-10101</p>
-    <p>이용약관 | 개인정보 처리방침 © HMST Inc.</p>
-  </div>  
-</footer>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="first">
+      <p>저자 지원 | 고객센터 | 칼럼 구독하기</p>
+    </div>
+    <div class="second">
+      <p>(주) 휴면상태 | 대표이사: 일팀 | 사업자 등록번호: 101-10-10101 | 경기도 안산시 상록구 한양대학로 55 멋사 빌딩 | 통신판매업신고: 2022-경기안산-10101</p>
+      <p>이용약관 | 개인정보 처리방침 © HMST Inc.</p>
+    </div>  
+  </footer>
 
 </body>
+
 </html>
