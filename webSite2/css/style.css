@@ -101,6 +101,12 @@ input::placeholder {
     border-left: 2.5px solid #dbdbdb;
 }
 
+.col_button {
+    background-color: #fff;
+    border:0;
+    padding:0;
+}
+
 .nav_link {
     color:inherit;
     text-decoration-line: none;
