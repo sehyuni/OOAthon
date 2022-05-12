@@ -106,17 +106,22 @@ input::placeholder {
     text-decoration-line: none;
 }
 
-
-
 h3 {
-    font-size: 25px;
+    font-size: 50px;
     font-weight: bold;
     color: black;
-    border-bottom: 1px solid #dbdbdb;
-    padding-bottom: 10px;
+    padding-left: 234px;
 }
 
-
+.containerr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 60px 30px;
+    padding-top: 10px;
+    padding-left: 234px;
+    padding-right: 234px;
+}
 
 footer {
     background-color: #f4f4f4;
