@@ -113,10 +113,8 @@ input::placeholder {
 }
 
 h3 {
-    font-size: 50px;
     font-weight: bold;
     color: black;
-    padding-left: 234px;
 }
 
 .containerr {
@@ -124,9 +122,6 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 60px 30px;
-    padding-top: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
     margin-left: auto;
     margin-right: auto;
     width: 900px;
