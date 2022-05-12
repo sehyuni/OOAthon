@@ -183,7 +183,7 @@ h3 {
 .containerrr {
     display: grid;
     grid-template-columns: repeat(2, 0.5fr 2fr 4fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 0.1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     row-gap: 30px;
     column-gap: 15px;
     margin-left: auto;
@@ -191,6 +191,14 @@ h3 {
     width: 900px;
     align-items: center;
     text-size-adjust: 9px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.containerrrr {
+    display: grid;
+    grid-template-columns: 0.5fr 7fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 25px;
 }
 
 
