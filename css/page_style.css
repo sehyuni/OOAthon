@@ -28,6 +28,11 @@
     padding: 0;
 }
 
+.pl-12 {
+    padding-left: 12px;
+}
+
+
 .m-0 {
     margin: 0;
 }
@@ -54,6 +59,10 @@
 
 .mr-24 {
     margin-right:24px;
+}
+
+.mr-36 {
+    margin-right:36px;
 }
 
 .mb-0 {
@@ -96,6 +105,10 @@
     border-bottom: 1px solid #dbdbdb;
 }
 
+.bl_line {
+    border-left: 3px solid #e9e9e9;  
+}
+
 .bold_line {
     border-bottom: 3px solid #dbdbdb;
 }
@@ -106,12 +119,4 @@
 
 .soft_gray_color {
     color: #777;
-}
-
-.t_top {
-    text-align: top;
-}
-
-.al-center {
-    align-items: center;
 }
