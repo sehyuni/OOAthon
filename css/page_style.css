@@ -96,6 +96,10 @@
     border-bottom: 1px solid #dbdbdb;
 }
 
+.bold_line {
+    border-bottom: 3px solid #dbdbdb;
+}
+
 .gray_color {
     color: #555;
 }
