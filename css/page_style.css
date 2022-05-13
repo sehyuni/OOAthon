@@ -107,3 +107,11 @@
 .soft_gray_color {
     color: #777;
 }
+
+.t_top {
+    text-align: top;
+}
+
+.al-center {
+    align-items: center;
+}
