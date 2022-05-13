@@ -26,6 +26,10 @@ body * {
     font-size: 24px;
 }
 
+.msmall_size_font {
+    font-size: 14px;
+}
+
 .small_size_font {
     font-size: 12px;
 }
@@ -36,4 +40,8 @@ body * {
 
 .thin_font {
     font-family: 'SCDream3';
+}
+
+.dark_gray_font {
+    color: #707070;
 }

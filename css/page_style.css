@@ -28,6 +28,10 @@
     padding: 0;
 }
 
+.m-0 {
+    margin: 0;
+}
+
 .mt-60 {
     margin-top:60px;
 }
@@ -92,10 +96,22 @@
     border-bottom: 1px solid #dbdbdb;
 }
 
+.bold_line {
+    border-bottom: 3px solid #dbdbdb;
+}
+
 .gray_color {
     color: #555;
 }
 
 .soft_gray_color {
     color: #777;
+}
+
+.t_top {
+    text-align: top;
+}
+
+.al-center {
+    align-items: center;
 }

@@ -7,10 +7,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/page_style.css">
 </head>
 
 <body>
   <div id='wrapper'>
+  
   <!-- Navbar -->
   <nav class="navbar">
     <div class="container">
@@ -32,10 +34,10 @@
         </div>
         
         <div class="nav_menu">
-            <a class="nav_link" href="column_page.html"><span>칼럼</span></a>
+            <a class="nav_link" href="page_column.html"><span>칼럼</span></a>
         </div>
         <div class="nav_menu">
-            <a class="nav_link" href="test_page.html"><span>테스트</span></a>
+            <a class="nav_link" href="page_test.html"><span>테스트</span></a>
         </div>
         <div class="nav_menu">
             <a class="nav_link" href=""><span>챌린지</span></a>
@@ -45,33 +47,32 @@
         </div>
 
         <div class="nav_portfolio">
-          <a class="nav_link" href="portfolio_page.html"><span>포트폴리오</span></a>
+          <a class="nav_link" href="page_portfolio.html"><span>포트폴리오</span></a>
         </div>
 
         <div class="navbar_login">
-          <button class="login_button" type="button" onclick="location.href='login_page.html'">
+          <button class="login_button" type="button" onclick="location.href='page_login.html'">
             <img src="images/person_icon.svg" style="height: 25px; width: 25px;">
           </button>
         </div>
         
     </div>
   </nav>
-
-  <!-- Section -->
-  <section class="login">
-    <h1 class="login_title">로그인</h1>
-      <form>
-        <input type="text" name="email" class="text-field" placeholder="아이디">
-        <input type="password" name="password" class="text-field" placeholder="비밀번호">
-        <input type="submit" value="로그인" class="submit-btn">
-      </form>
-
-      <div class="links">
-        <a href="#">어머, 아직 가입하지 않으셨나요?</a>
-      </div>
-  </section>
-  </div>
   
+  <!-- Contents -->
+  <div class="fixed_container">
+    <h4 class="large_size_font bold_font mb-36">나의 휴학 포트폴리오</h4>
+    <div class="sidebar">
+      <p class="t_top m-0 w-100 d-flex c-flex mb-24">대 목표 설정하기</p>
+      <p class="t_top m-0 mb-24 w-100 d-flex c-flex">중간 목표 설정하기</p>
+      <p class="t_top m-0 mb-24 w-100 d-flex c-flex">소 목표 설정하기</p>
+    </div>
+    <div class="right_contents d-flex">
+      <img src="images/mind.png" width="100%">
+    </div>
+  </div>
+  </div>
+
   <!-- Footer -->
   <footer class="footer">
       <div class="first">
@@ -82,6 +83,5 @@
         <p>이용약관 | 개인정보 처리방침 © HMST Inc.</p>
       </div>  
   </footer>
-
 </body>
 </html>
